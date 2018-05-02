@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 const request = require('request');
 
-let token = 'NDM2MjEwMjU2OTMwOTMwNjkw.DbkL_Q.46idYS2lNX3dX2Dde92CxM1tVK4';
+let token = process.env.TOKEN;
 
 client.on('ready', ()=>{
 
